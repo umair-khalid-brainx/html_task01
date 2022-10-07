@@ -1,21 +1,10 @@
 nav {
     text-align: center;
 }
-.image1 {
+.image {
     width: 300px;
     height: 200px;
     border: 5px solid black;
-    float: left;
-}
-.image2 {
-    width: 300px;
-    height: 200px;
-    border: 5px solid black;
-    float: right;
-}
-html {
-    background: url(assets/background.jpg) no-repeat center center fixed;
-    background-size: cover;
 }
 span {
     text-align: center;
@@ -26,4 +15,11 @@ span {
     width: 250px;
     height: 180px;
     border: 5px solid rgb(55, 0, 255);
+}
+a {
+    padding-right: 3px;
+    border-right: 1px solid black;
+}
+a.last {
+    border: none;
 }
